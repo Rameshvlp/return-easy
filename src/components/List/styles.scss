@@ -1,0 +1,24 @@
+.list-cards {
+  width: 300px;
+  background-color: #ebecf0;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+}
+
+.title-list {
+  padding: 1rem 1rem 0;
+}
+
+.container-cards {
+  display: flex; /* Use Flexbox to display cards horizontally */
+  overflow-x: auto;
+  max-height: 55vh;
+  padding: 0 1rem;
+}
+
+.card-container {
+  overflow-y: hidden;
+  margin: 0.5rem 0;
+  flex: 0 0 auto; /* Allow cards to grow and shrink as needed */
+  min-width: 100px; /* Adjust the width as needed */
+}
